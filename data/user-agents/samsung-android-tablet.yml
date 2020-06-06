@@ -1,0 +1,7 @@
+name: Samsung Android (Tablet)
+userAgent: Mozilla/5.0 (Linux; Android 9; SAMSUNG SM-T865 Build/PPR1.180610.011) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/9.0 Chrome/67.0.3396.87 Safari/537.36
+expect:
+  browser: samsung
+  version: 9
+  os: android
+  isMobile: true

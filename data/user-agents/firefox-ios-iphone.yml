@@ -1,0 +1,7 @@
+name: Firefox iOS (iPhone)
+userAgent: Mozilla/5.0 (iPhone; CPU OS 13_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) FxiOS/26.0  Mobile/15E148 Safari/605.1.15
+expect:
+  browser: firefox
+  version: 26
+  os: ios
+  isMobile: true

@@ -1,0 +1,7 @@
+name: Firefox Desktop (macOS)
+userAgent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:77.0) Gecko/20100101 Firefox/77.0
+expect:
+  browser: firefox
+  version: 77
+  os: mac
+  isMobile: false

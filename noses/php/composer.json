@@ -1,0 +1,8 @@
+{
+  "require": {
+    "donatj/phpuseragentparser": "*",
+    "mobiledetect/mobiledetectlib": "*",
+    "ua-parser/uap-php": "*",
+    "whichbrowser/parser": "*"
+  }
+}

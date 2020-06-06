@@ -1,0 +1,8 @@
+{
+  "name": "ua-logger",
+  "main": "server.js",
+  "private": true,
+  "scripts": {
+    "start": "node server.js"
+  }
+}

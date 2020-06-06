@@ -1,0 +1,7 @@
+name: Firefox Reality (Quest)
+userAgent: Mozilla/5.0 (Android 7.1.1; Mobile VR; rv:78.0) Gecko/78.0 Firefox/78.0
+expect:
+  browser: firefox
+  version: 78
+  os: android
+  isMobile: true

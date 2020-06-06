@@ -1,0 +1,43 @@
+csharp:
+  uap-csharp:
+    link: https://github.com/ua-parser/uap-csharp
+
+go:
+  uap-go:
+    link: https://github.com/ua-parser/uap-go
+  user_agent:
+    link: https://github.com/mssola/user_agent
+
+javascript:
+  ismobile:
+    link: https://github.com/kaimallea/isMobile
+  ua-parser-js:
+    link: https://github.com/faisalman/ua-parser-js
+  useragent:
+    link: https://github.com/3rd-Eden/useragent
+
+php:
+  mobile-detect:
+    link: https://github.com/serbanghita/Mobile-Detect
+  parser-php:
+    link: https://github.com/WhichBrowser/Parser-PHP
+  phpuseragent:
+    link: https://github.com/donatj/PhpUserAgent
+  uap-php:
+    link: https://github.com/ua-parser/uap-php
+
+python:
+  python-user-agents:
+    link: https://github.com/selwin/python-user-agents
+  uap-python:
+    link: https://github.com/ua-parser/uap-python
+
+ruby:
+  browser:
+    link: https://github.com/fnando/browser
+  device_detector:
+    link: https://github.com/podigee/device_detector
+  uap-ruby:
+    link: https://github.com/ua-parser/uap-ruby
+  useragent:
+    link: https://github.com/gshutler/useragent

@@ -1,0 +1,7 @@
+name: Firefox Android (Fennec) (Phone)
+userAgent: Mozilla/5.0 (Android 10; Mobile; rv:65.0) Gecko/65.0 Firefox/65.0
+expect:
+  browser: firefox
+  version: 65
+  os: android
+  isMobile: true

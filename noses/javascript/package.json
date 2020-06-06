@@ -1,0 +1,13 @@
+{
+  "name": "nose-javascript",
+  "main": "server.js",
+  "private": true,
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "ismobilejs": "^1.1.1",
+    "ua-parser-js": "^0.7.21",
+    "useragent": "^2.3.0"
+  }
+}

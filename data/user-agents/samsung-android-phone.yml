@@ -1,0 +1,7 @@
+name: Samsung Android (Phone)
+userAgent: Mozilla/5.0 (Linux; Android 10; SAMSUNG SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/11.1 Chrome/75.0.3770.143 Mobile Safari/537.36
+expect:
+  browser: samsung
+  version: 11
+  os: android
+  isMobile: true

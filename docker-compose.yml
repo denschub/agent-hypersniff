@@ -1,0 +1,42 @@
+version: "3.4"
+
+x-service: &service
+  restart: "unless-stopped"
+  networks:
+    - internal
+
+services:
+  harness:
+    <<: *service
+    build: ./harness/
+    volumes:
+      - ./data:/app/data
+      - ./output:/app/output
+
+  nose-csharp:
+    <<: *service
+    build: ./noses/csharp/
+
+  nose-go:
+    <<: *service
+    build: ./noses/go/
+
+  nose-javascript:
+    <<: *service
+    build: ./noses/javascript/
+
+  nose-php:
+    <<: *service
+    build: ./noses/php/
+
+  nose-python:
+    <<: *service
+    build: ./noses/python/
+
+  nose-ruby:
+    <<: *service
+    build: ./noses/ruby/
+
+networks:
+  internal:
+    internal: true

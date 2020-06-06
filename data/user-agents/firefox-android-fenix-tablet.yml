@@ -1,0 +1,7 @@
+name: Firefox Android (Fenix) (Tablet)
+userAgent: Mozilla/5.0 (Android 10; Tablet; rv:79.0) Gecko/79.0 Firefox/79.0
+expect:
+  browser: firefox
+  version: 79
+  os: android
+  isMobile: true

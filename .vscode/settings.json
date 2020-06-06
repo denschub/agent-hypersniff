@@ -1,0 +1,12 @@
+{
+  "files.exclude": {
+    "**/csharp/bin": true,
+    "**/csharp/obj": true,
+    "**/harness/vendor": true,
+    "**/node_modules": true,
+    "**/python/__pycache__": true,
+    "**/python/venv": true,
+    "**/ruby/vendor": true
+  },
+  "editor.formatOnSave": true
+}

@@ -1,0 +1,7 @@
+name: Chrome iOS (iPhone)
+userAgent: Mozilla/5.0 (iPhone; CPU iPhone OS 13_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/80.0.3987.95 Mobile/15E148 Safari/604.1
+expect:
+  browser: chrome
+  version: 80
+  os: ios
+  isMobile: true

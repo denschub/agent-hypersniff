@@ -25,6 +25,7 @@ To run this, you need to have
 2. Run `docker-compose build` to let Docker build the containers. This may take a while. Ignore warnings that may pop up, as long as the project finishes without showing an error, everything is fine.
 3. Run `docker-compose up -d` to start up the noses and have them ready for testing.
 4. Run `docker-compose exec harness ./run` to start the testing process.
+5. When all tests are complete and you do not plan another round, stop the services with `docker-compose down`.
 
 Once the tests are done, you'll see a summary in your terminal and a full JSON report in the `output` directory.
 

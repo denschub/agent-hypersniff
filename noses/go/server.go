@@ -3,11 +3,11 @@ package main
 import (
   "encoding/json"
   "net/http"
-	"strings"
-	"strconv"
+  "strings"
+  "strconv"
 
-	"github.com/ua-parser/uap-go/uaparser"
-	"github.com/mssola/user_agent"
+  "github.com/ua-parser/uap-go/uaparser"
+  "github.com/mssola/user_agent"
 )
 
 type UAResult struct {
@@ -42,8 +42,8 @@ func get_uap_go(w http.ResponseWriter, req *http.Request) {
 }
 
 func get_user_agent(w http.ResponseWriter, req *http.Request) {
-	ua := user_agent.New(req.Header.Get("User-Agent"))
-	name, version := ua.Browser()
+  ua := user_agent.New(req.Header.Get("User-Agent"))
+  name, version := ua.Browser()
   result := UAResult {
     strings.ToLower(name),
     strings.ToLower(version),
